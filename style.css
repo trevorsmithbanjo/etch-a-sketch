@@ -1,0 +1,40 @@
+html {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  margin: 75px;
+  display: inline-grid;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  border: 5px solid black;
+  height: 575px;
+  width: 575px;
+}
+
+.square {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.color {
+  background-color: grey;
+  border: 1px solid black;
+}
+
+label {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+

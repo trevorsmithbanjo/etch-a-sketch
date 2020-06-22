@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Etch-a-Sketch</title>
+    <meta charset="UTF-8"/>
+    <script>
+        const head = document.getElementsByTagName('HEAD' [0]);
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'style.css';
+        document.head.appendChild(link);
+        console.log(head);
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Etch-a-Sketch</h1>
+        <label for="quantity" >How many squares for grid?</label>
+        <input type="number" id="quantity" name="quantity" />
+        <button class="reset">RESET</button>
+    </header>
+    <div id="container"></div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
